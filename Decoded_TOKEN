@@ -1,0 +1,37 @@
+HEADER:ALGORITHM & TOKEN TYPE
+{
+  "alg": "RS256",
+  "kid": "o6AMV5_j4B0bUwbpFoSWCnTyKfW3YevPf8OeKTomcr4"
+}
+
+PAYLOAD:DATA
+{
+  "aud": [
+    "https://kubernetes.default.svc.cluster.local"
+  ],
+  "exp": 1687775621,
+  "iat": 1656239621,
+  "iss": "https://kubernetes.default.svc.cluster.local",
+  "kubernetes.io": {
+    "namespace": "default",
+    "pod": {
+      "name": "islands-7655b7749f-zvq52",
+      "uid": "b3106921-490a-4767-8d59-72f6691bf9c0"
+    },
+    "serviceaccount": {
+      "name": "islands",
+      "uid": "99239059-4f6c-406b-8294-5a55fbc143b0"
+    },
+    "warnafter": 1656243228
+  },
+  "nbf": 1656239621,
+  "sub": "system:serviceaccount:default:islands"
+}
+
+VERIFY SIGNATURE
+RSASHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  ,
+  
+)
