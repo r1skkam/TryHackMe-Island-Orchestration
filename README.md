@@ -309,3 +309,5 @@ root@ip-10-10-75-197:~# curl -k -v -H "Authorization: Bearer $TOKEN" https://10.
 ![image](https://user-images.githubusercontent.com/58542375/175811868-16ae7018-5a8e-46e3-9865-f35d2ac60e13.png)
 
 ![image](https://user-images.githubusercontent.com/58542375/175811733-57817e84-25fc-4501-8186-9ac5f2eadb89.png)
+
+Thank you [Djemouai Mohamed Abdou](https://www.youtube.com/watch?v=Vj4PvvtCA1c) for this walkthrough...
